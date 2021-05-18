@@ -7,7 +7,7 @@ public class Variable {
         float frequencyCPU = 2.60f;
         double monitorDiagonal = 15.6d;
         char cpuLetterIndex = 'i';
-        boolean notebook = true;
+        boolean mobile = true;
         System.out.println("coreCPU = " + coreCPU);
         System.out.println("ram = " + ram);
         System.out.println("quantityHdd = " + quantityHdd);
@@ -15,7 +15,7 @@ public class Variable {
         System.out.println("frequencyCPU = " + frequencyCPU);
         System.out.println("monitorDiagonal = " + monitorDiagonal);
         System.out.println("cpuLetterIndex = " + cpuLetterIndex);
-        System.out.println("notebook = " + notebook);
+        System.out.println("mobile = " + mobile);
 
     }
 }
