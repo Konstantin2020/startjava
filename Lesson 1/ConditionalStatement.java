@@ -2,31 +2,31 @@ public class ConditionalStatement {
     public static void main(String[] args) {
         int age = 29;
         if (age < 20) {
-            System.out.println("Âîçðàñò" + age + " áîëüøå 20");
+            System.out.println("Ð’Ð¾Ð·Ñ€Ð°ÑÑ‚" + age + " Ð±Ð¾Ð»ÑŒÑˆÐµ 20");
         }
 
         boolean isMaleGender = true;
         if (isMaleGender) {
-            System.out.println("Ìóæñêîãî ïîëà");
+            System.out.println("ÐœÑƒÐ¶ÑÐºÐ¾Ð³Ð¾ Ð¿Ð¾Ð»Ð°");
         }
         if (!isMaleGender) {
-            System.out.println("Æåíñêîãî ïîëà");
+            System.out.println("Ð–ÐµÐ½ÑÐºÐ¾Ð³Ð¾ Ð¿Ð¾Ð»Ð°");
         }
 
         float height = 1.81f;
         if (height < 1.80) {
-            System.out.println("Íèçêîãî èëè ñðåäíåãî ðîñòà");
+            System.out.println("ÐÐ¸Ð·ÐºÐ¾Ð³Ð¾ Ð¸Ð»Ð¸ ÑÑ€ÐµÐ´Ð½ÐµÐ³Ð¾ Ñ€Ð¾ÑÑ‚Ð°");
         } else {
-            System.out.println("Ñðåäíåãî èëè âûñîêîãî ðîñòà");
+            System.out.println("Ð¡Ñ€ÐµÐ´Ð½ÐµÐ³Ð¾ Ð¸Ð»Ð¸ Ð²Ñ‹ÑÐ¾ÐºÐ¾Ð³Ð¾ Ñ€Ð¾ÑÑ‚Ð°");
         }
 
         char firstLetterOfName = 'K';
         if (firstLetterOfName == 'M') {
-            System.out.println("Ïåðâàÿ áóêâà èìåíè Ì");
+            System.out.println("ÐŸÐµÑ€Ð²Ð°Ñ Ð±ÑƒÐºÐ²Ð° Ð¸Ð¼ÐµÐ½Ð¸ Ðœ");
         } else if (firstLetterOfName == 'I'){
-            System.out.println("Ïåðâàÿ áóêâà èìåíè I");
+            System.out.println("ÐŸÐµÑ€Ð²Ð°Ñ Ð±ÑƒÐºÐ²Ð° Ð¸Ð¼ÐµÐ½Ð¸ I");
         } else {
-            System.out.println("Ïåðâàÿ áóêâà èìåíè íå M è íå I");
+            System.out.println("ÐŸÐµÑ€Ð²Ð°Ñ Ð±ÑƒÐºÐ²Ð° Ð¸Ð¼ÐµÐ½Ð¸ Ð½Ðµ M Ð¸ Ð½Ðµ I");
         }
     }
 }
